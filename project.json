@@ -1,0 +1,37 @@
+{
+  "name": "REF_Exam1",
+  "description": "1. Log in to https://www.acme-test.com.\r\n2. On the landing page, Dashboard, click on the Work items menu item. Scrape the data in all the pages of the table, page by page, ensuring error handling and recovery.\r\n3. For each page:\r\n- Filter the records where Status is 'Open';\r\n- Filter the records where Description is 'Calculate Client Security Hash';\r\n- Filter the records where WIID is less than 600000;\r\n- Append the resulting datatable into an Excel worksheet, you shouldn't worry abo\r\n",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Credentials.Activities": "[1.1.6479.13204]",
+    "UiPath.Excel.Activities": "[2.8.0-preview]",
+    "UiPath.Mail.Activities": "[1.8.0-preview]",
+    "UiPath.System.Activities": "[19.12.0-preview]",
+    "UiPath.UIAutomation.Activities": "[19.12.0-preview]"
+  },
+  "webServices": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "19.12.0.61",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "fileInfos": []
+  },
+  "expressionLanguage": "VisualBasic"
+}
